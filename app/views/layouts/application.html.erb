@@ -10,6 +10,15 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="navbar bg-light px-4">
+      <h1>Wagon's Yelp</h1>
+      <div class="align-right ">
+        <%= link_to 'Restaurants', restaurants_path, class: "border-right pr-3" %>
+        <%= link_to 'Add a restaurant', new_restaurant_path, class: "pl-3" %>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <%= yield %>
+    </div>
   </body>
 </html>
