@@ -1,24 +1,12 @@
-# README
+# Yelp MVP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Yelp MVP is a two-model Rails app - a clone of Yelp, with restaurants and reviews.
 
-Things you may want to cover:
+This MVP includes the following features:
 
-* Ruby version
+- A visitor can see the list of all restaurants.
+- A visitor can add a new restaurant, and be redirected to the show view of that new restaurant.
+- A visitor can see the details of a restaurant, with all the reviews related to the restaurant.
+- A visitor can add a new review to a restaurant.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Done during my time at Le Wagon.
